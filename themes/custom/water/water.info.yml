@@ -1,0 +1,5 @@
+name: WaterTheme
+type: theme
+description: "It's test theme for drupal site."
+core_version_requirement: ^8 || ^9
+base theme: classy
