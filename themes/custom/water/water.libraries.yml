@@ -1,0 +1,21 @@
+# water.libraries.yml
+global-styling:
+  version: 1.x
+  css:
+    theme:
+      css/style.css: {}
+      css/colors.css: {}
+      css/layout.css: {}
+      css/main-content.css: {}
+      css/bootstrap.css: {}
+      css/bootstrap-theme.css: {}
+      css/bootstrap.css.map.css: {}
+      css/bootstrap.min.css: {}
+      css/bootstrap.min.css.map: {}
+      css/bootstrap-theme.css.map: {}
+      css/bootstrap-theme.min.css: {}
+      css/bootstrap-theme.min.css.map: {}
+  js:
+    js/bootstrap.js: {}
+    js/bootstrap.min.js: {}
+

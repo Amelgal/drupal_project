@@ -1,0 +1,8 @@
+uuid: c152917a-071a-48d2-b925-a39972fb8e8d
+langcode: en
+status: true
+dependencies: {  }
+id: tags-menu
+label: 'Tags menu'
+description: ''
+locked: false

@@ -1,0 +1,29 @@
+uuid: 15c8b8c3-0de8-4abc-b972-664ec641c538
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.newest
+  module:
+    - system
+    - views
+  theme:
+    - water
+id: views_block__newest_block_1
+theme: water
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:newest-block_1'
+settings:
+  id: 'views_block:newest-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "drupal_project.loc/\r\n/node/21"
+    negate: false

@@ -1,0 +1,28 @@
+uuid: bb5a648c-a2f3-41c4-bb66-d26831365b44
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+    - system
+  theme:
+    - water
+_core:
+  default_config_hash: Q-4EcGAsu26ICu4ejEz0uE1zv4akpiaOsizxgZfAmEw
+id: water_search
+theme: water
+region: sidebar_second
+weight: -6
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+  page_id: node_search
+visibility:
+  request_path:
+    id: request_path
+    pages: "drupal_project.loc/\r\n/node/21"
+    negate: true

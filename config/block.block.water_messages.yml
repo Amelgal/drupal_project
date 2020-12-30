@@ -1,0 +1,22 @@
+uuid: 88c537a2-faad-41af-8aa5-db22385eb104
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - water
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: water_messages
+theme: water
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

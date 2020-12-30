@@ -1,0 +1,25 @@
+uuid: 9bafec69-28f2-4db0-8ba7-ef4e6bb6afdb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.swim
+  module:
+    - text
+_core:
+  default_config_hash: RA0tCFEZ2zV3GlbY5VKO-pgHuElCEcxYNZDRnxva2Cs
+id: node.swim.body
+field_name: body
+entity_type: node
+bundle: swim
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

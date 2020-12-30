@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_swimming_types
+    - node.type.swim
+    - taxonomy.vocabulary.swimming_types
+id: node.swim.field_swimming_types
+field_name: field_swimming_types
+entity_type: node
+bundle: swim
+label: 'Swimming types'
+description: 'The different types of swimming styles and strokes mainly include the freestyle stroke, backstroke, breaststroke, butterfly stroke, and sidestroke. For competition, the versatility will allow swimmers to compete in multiple events.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      swimming_types: swimming_types
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

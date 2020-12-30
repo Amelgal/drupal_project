@@ -1,0 +1,8 @@
+uuid: 8b275dde-9461-4078-8a99-84183835f01c
+langcode: en
+status: true
+dependencies: {  }
+name: 'Article direction'
+vid: article_direction
+description: 'Which direction is covered in the article?'
+weight: 0
