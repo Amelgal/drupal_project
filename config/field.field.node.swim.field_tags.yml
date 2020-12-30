@@ -1,0 +1,31 @@
+uuid: 3f05d928-b6b3-4d94-a282-e919339feba6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tags
+    - node.type.swim
+    - taxonomy.vocabulary.tags
+_core:
+  default_config_hash: 5-7s-lr6kR9ZKTZZv9sh4Aat39eGZ06p_kUI8p8O1WU
+id: node.swim.field_tags
+field_name: field_tags
+entity_type: node
+bundle: swim
+label: Tags
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

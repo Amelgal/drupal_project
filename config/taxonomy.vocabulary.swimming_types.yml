@@ -1,0 +1,8 @@
+uuid: 13f5bfcc-ec5a-4dfb-af2b-3535ac5f85e7
+langcode: en
+status: true
+dependencies: {  }
+name: 'Swimming types'
+vid: swimming_types
+description: 'The different types of swimming styles and strokes mainly include the freestyle stroke, backstroke, breaststroke, butterfly stro'
+weight: 0

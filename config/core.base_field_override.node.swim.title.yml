@@ -1,0 +1,20 @@
+uuid: 08ad35d0-8f0d-4ae1-9f0a-e9d80e0063de
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.swim
+_core:
+  default_config_hash: qu8fDC8bRMqH4eZS462IK0yw4Em-_oNIFty9ri-XS9k
+id: node.swim.title
+field_name: title
+entity_type: node
+bundle: swim
+label: 'Swim content'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

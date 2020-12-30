@@ -1,0 +1,21 @@
+# ignore everything in the root except the "themes", "modules" and ""config  directory.
+/*
+!config/
+!themes/
+!modules/
+
+# ignore everything in the "themes" directory, except:
+# "custom" directory
+themes/*
+!themes/custom/
+modules/*
+!modules/custom/
+
+# ignore log files and databases
+*.log
+*.svg
+*.sql
+*.sqlite
+
+!.gitignore
+!composer.json

@@ -1,0 +1,31 @@
+uuid: fbd27b6e-eb53-41c6-b127-686fa4b5aa10
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_article_direction
+    - node.type.swim
+    - taxonomy.vocabulary.article_direction
+_core:
+  default_config_hash: mlzdu5YG4MUo8JRISDKarSot8E8zcPtbE2V3i08Bx3I
+id: node.swim.field_article_direction
+field_name: field_article_direction
+entity_type: node
+bundle: swim
+label: 'Article direction'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      article_direction: article_direction
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

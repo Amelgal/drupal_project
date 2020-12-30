@@ -1,0 +1,42 @@
+uuid: 4025022c-2ad1-415c-86c4-70b5bce6784b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.swim.body
+    - field.field.node.swim.comment
+    - field.field.node.swim.field_article_direction
+    - field.field.node.swim.field_image
+    - field.field.node.swim.field_swimming_types
+    - field.field.node.swim.field_tags
+    - node.type.swim
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: z1-1A7oaqXFMnQZpj4m9Inm8pe6UjXBvDQNRYAZhm7E
+id: node.swim.teaser
+targetEntityType: node
+bundle: swim
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  comment: true
+  field_article_direction: true
+  field_image: true
+  field_swimming_types: true
+  field_tags: true

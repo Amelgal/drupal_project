@@ -1,0 +1,29 @@
+uuid: 0e2ea7d2-a8a9-4bfa-8b4c-4206e706985d
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.who_s_new
+  module:
+    - system
+    - views
+  theme:
+    - water
+id: views_block__who_s_new_block_1
+theme: water
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:who_s_new-block_1'
+settings:
+  id: 'views_block:who_s_new-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "drupal_project.loc/\r\n/node/21"
+    negate: true

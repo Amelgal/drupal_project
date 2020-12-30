@@ -1,0 +1,26 @@
+uuid: 231d7fa5-fafa-430b-ab26-4a3ca95aeaa9
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - water
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: water_page_title
+theme: water
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: "/node/21\r\ndrupal_project.loc/"
+    negate: true
